@@ -6,6 +6,7 @@ import logo from "@/assets/logo.svg";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Shop", href: "/shop" },
+  { name: "Get Estimate", href: "/get-estimate" },
   { name: "Collections", href: "/collections" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
