@@ -5,6 +5,7 @@ import FounderSection from "@/components/about/FounderSection";
 import StorySection from "@/components/about/StorySection";
 import WhyChooseUsSection from "@/components/about/WhyChooseUsSection";
 import CtaSection from "@/components/about/CtaSection";
+import HomeTrialSection from "@/components/home/HomeTrialSection";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <HomeTrialSection />
         <FounderSection />
         <StorySection />
         <WhyChooseUsSection />
