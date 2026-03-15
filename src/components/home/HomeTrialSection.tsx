@@ -459,7 +459,7 @@ const HomeTrialSection = () => {
   return (
     <div>
       {/* Switcher bar */}
-      <div className="sticky top-0 z-50 bg-card/95 backdrop-blur-md border-b border-border py-3 px-4 overflow-x-auto">
+      <div className="bg-card/95 backdrop-blur-md border-b border-border py-3 px-4 overflow-x-auto">
         <div className="flex gap-2 max-w-6xl mx-auto">
           {variations.map((v, i) => (
             <button key={v.key} onClick={() => setActive(i)}
