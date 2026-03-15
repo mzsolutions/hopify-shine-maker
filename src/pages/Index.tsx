@@ -6,7 +6,7 @@ import FounderSection from "@/components/about/FounderSection";
 import StorySection from "@/components/about/StorySection";
 import WhyChooseUsSection from "@/components/about/WhyChooseUsSection";
 import CtaSection from "@/components/about/CtaSection";
-import { DarkOptionA, DarkOptionB, DarkOptionC, LightOptionA, LightOptionB, LightOptionC } from "@/components/home/HomeTrialSection";
+import { DarkOptionA, DarkOptionB, DarkOptionC, LightOptionA, LightOptionB, LightOptionC, LightFullWidthD, LightFullWidthE, LightFullWidthF } from "@/components/home/HomeTrialSection";
 
 const options = [
   { label: "Dark A – Cinematic", Component: DarkOptionA },
@@ -15,6 +15,9 @@ const options = [
   { label: "Light A – Editorial", Component: LightOptionA },
   { label: "Light B – Minimal", Component: LightOptionB },
   { label: "Light C – Sticky", Component: LightOptionC },
+  { label: "Light D – Parallax", Component: LightFullWidthD },
+  { label: "Light E – Magazine", Component: LightFullWidthE },
+  { label: "Light F – Grand", Component: LightFullWidthF },
 ];
 
 const Index = () => {

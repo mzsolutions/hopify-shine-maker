@@ -411,3 +411,212 @@ export const LightOptionC = () => (
     </div>
   </section>
 );
+
+/* ─── LIGHT FULL-WIDTH D: Immersive Parallax Banner ─── */
+export const LightFullWidthD = () => (
+  <section className="relative overflow-hidden">
+    {/* Full-width image band */}
+    <div className="relative h-[50vh] md:h-[60vh]">
+      <img src={homeTrialBg} alt="Luxury carpet" className="w-full h-full object-cover" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-transparent to-background" />
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+        className="absolute inset-0 flex items-center justify-center text-center"
+      >
+        <div>
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <div className="h-px w-10 bg-primary-foreground/40" />
+            <Sparkles className="w-4 h-4 text-primary-foreground" />
+            <div className="h-px w-10 bg-primary-foreground/40" />
+          </div>
+          <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl text-primary-foreground leading-[1.05] drop-shadow-lg">
+            Free Home Trial
+          </h2>
+        </div>
+      </motion.div>
+    </div>
+
+    {/* Content below */}
+    <div className="bg-background relative z-10 -mt-16">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto mb-16">
+          {steps.map((s, i) => (
+            <motion.div
+              key={s.title}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.1, duration: 0.5 }}
+              className="bg-card rounded-2xl p-7 border border-border shadow-elevated text-center group hover:border-primary/20 transition-all duration-500"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-secondary flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/10 transition-colors">
+                <s.icon className="w-6 h-6 text-primary" />
+              </div>
+              <span className="text-primary font-sans text-[10px] font-bold tracking-[0.3em] uppercase">{s.num}</span>
+              <h3 className="font-serif text-foreground text-base mt-1 mb-1">{s.title}</h3>
+              <p className="text-muted-foreground text-xs font-sans font-light">{s.desc}</p>
+            </motion.div>
+          ))}
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.4 }}
+          className="text-center pb-24"
+        >
+          <p className="text-muted-foreground text-lg font-sans font-light max-w-lg mx-auto mb-8">
+            Choose up to 4 handcrafted carpets. We deliver free, you decide at home.
+          </p>
+          <div className="flex justify-center">
+            <CTA />
+          </div>
+        </motion.div>
+      </div>
+    </div>
+  </section>
+);
+
+/* ─── LIGHT FULL-WIDTH E: Magazine Hero ─── */
+export const LightFullWidthE = () => (
+  <section className="relative overflow-hidden min-h-[85vh] flex items-center bg-secondary/30">
+    {/* Background image with light overlay */}
+    <div className="absolute inset-0">
+      <img src={homeTrialBg} alt="Luxury carpet" className="w-full h-full object-cover" />
+      <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
+    </div>
+
+    <div className="relative z-10 container mx-auto px-4 py-24 md:py-32">
+      <div className="max-w-3xl">
+        <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
+          <span className="inline-block px-5 py-2 rounded-full bg-primary/10 text-primary font-sans text-[11px] font-semibold tracking-[0.35em] uppercase mb-8 border border-primary/15">
+            Complimentary Home Trial
+          </span>
+          <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl text-foreground leading-[1.06] mb-6">
+            See It In<br />
+            <span className="italic text-primary">Your Home</span>
+          </h2>
+          <p className="text-muted-foreground text-lg md:text-xl font-sans font-light leading-relaxed max-w-xl mb-14">
+            Select up to 4 carpets from our collection and experience them in your space — delivered free, with zero obligation.
+          </p>
+        </motion.div>
+
+        {/* Inline horizontal steps */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+          className="flex flex-wrap gap-8 mb-14"
+        >
+          {steps.map((s, i) => (
+            <motion.div
+              key={s.title}
+              initial={{ opacity: 0, y: 15 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 + i * 0.1 }}
+              className="flex items-center gap-3"
+            >
+              <div className="w-10 h-10 rounded-xl bg-card border border-border flex items-center justify-center shadow-sm">
+                <s.icon className="w-4 h-4 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-serif text-foreground text-sm">{s.title}</h3>
+                <p className="text-muted-foreground text-[11px] font-sans">{s.desc}</p>
+              </div>
+            </motion.div>
+          ))}
+        </motion.div>
+
+        <motion.div initial={{ opacity: 0, y: 15 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.5 }}>
+          <CTA />
+        </motion.div>
+      </div>
+    </div>
+  </section>
+);
+
+/* ─── LIGHT FULL-WIDTH F: Grand Statement ─── */
+export const LightFullWidthF = () => (
+  <section className="relative overflow-hidden bg-background">
+    {/* Top accent */}
+    <div className="h-1 bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
+
+    <div className="container mx-auto px-4 py-28 md:py-36">
+      {/* Centered title */}
+      <motion.div
+        initial={{ opacity: 0, y: 25 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7 }}
+        className="text-center max-w-3xl mx-auto mb-20"
+      >
+        <div className="flex items-center justify-center gap-4 mb-6">
+          <Star className="w-3.5 h-3.5 text-primary" />
+          <span className="text-primary font-sans text-[11px] font-semibold tracking-[0.45em] uppercase">Complimentary Service</span>
+          <Star className="w-3.5 h-3.5 text-primary" />
+        </div>
+        <h2 className="font-serif text-5xl md:text-6xl lg:text-7xl text-foreground leading-[1.06] mb-6">
+          The Home Trial<br /><span className="italic text-primary">Experience</span>
+        </h2>
+        <p className="text-muted-foreground text-lg font-sans font-light leading-relaxed max-w-lg mx-auto">
+          4 handcrafted carpets. 7 days in your home. Free delivery & returns. Zero risk.
+        </p>
+      </motion.div>
+
+      {/* Full-width image with overlaid step strip */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.2, duration: 0.7 }}
+        className="relative rounded-3xl overflow-hidden max-w-6xl mx-auto mb-0"
+      >
+        <div className="aspect-[21/9]">
+          <img src={homeTrialBg} alt="Luxury carpet" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[hsl(30_10%_6%/0.85)] via-[hsl(30_10%_6%/0.2)] to-transparent" />
+        </div>
+
+        {/* Steps overlay at bottom */}
+        <div className="absolute bottom-0 left-0 right-0 p-6 md:p-10">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+            {steps.map((s, i) => (
+              <motion.div
+                key={s.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.4 + i * 0.1 }}
+                className="flex items-start gap-3"
+              >
+                <div className="w-10 h-10 rounded-xl bg-primary-foreground/10 backdrop-blur-md border border-primary-foreground/10 flex items-center justify-center shrink-0">
+                  <s.icon className="w-4 h-4 text-primary-foreground" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-primary-foreground text-sm">{s.title}</h3>
+                  <p className="text-primary-foreground/50 text-[11px] font-sans">{s.desc}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </motion.div>
+
+      {/* CTA below */}
+      <motion.div
+        initial={{ opacity: 0, y: 15 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.6 }}
+        className="text-center pt-14"
+      >
+        <CTA />
+      </motion.div>
+    </div>
+  </section>
+);
