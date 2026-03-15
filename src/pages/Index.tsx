@@ -6,12 +6,15 @@ import FounderSection from "@/components/about/FounderSection";
 import StorySection from "@/components/about/StorySection";
 import WhyChooseUsSection from "@/components/about/WhyChooseUsSection";
 import CtaSection from "@/components/about/CtaSection";
-import { HomeTrialOptionA, HomeTrialOptionB, HomeTrialOptionC } from "@/components/home/HomeTrialSection";
+import { DarkOptionA, DarkOptionB, DarkOptionC, LightOptionA, LightOptionB, LightOptionC } from "@/components/home/HomeTrialSection";
 
 const options = [
-  { label: "A – Dark Banner", Component: HomeTrialOptionA },
-  { label: "B – Light Cards", Component: HomeTrialOptionB },
-  { label: "C – Split Layout", Component: HomeTrialOptionC },
+  { label: "Dark A – Cinematic", Component: DarkOptionA },
+  { label: "Dark B – Centered", Component: DarkOptionB },
+  { label: "Dark C – Split", Component: DarkOptionC },
+  { label: "Light A – Editorial", Component: LightOptionA },
+  { label: "Light B – Minimal", Component: LightOptionB },
+  { label: "Light C – Sticky", Component: LightOptionC },
 ];
 
 const Index = () => {
@@ -25,14 +28,14 @@ const Index = () => {
         <HeroSection />
 
         {/* Option Switcher – remove after choosing */}
-        <div className="bg-muted py-4 sticky top-16 z-30 border-b border-border">
-          <div className="container mx-auto px-4 flex items-center justify-center gap-3 flex-wrap">
-            <span className="text-sm text-muted-foreground font-sans mr-2">Home Trial Section:</span>
+        <div className="bg-muted py-3 sticky top-16 z-30 border-b border-border">
+          <div className="container mx-auto px-4 flex items-center justify-center gap-2 flex-wrap">
+            <span className="text-xs text-muted-foreground font-sans mr-2">Home Trial:</span>
             {options.map((opt, i) => (
               <button
                 key={opt.label}
                 onClick={() => setSelected(i)}
-                className={`px-4 py-2 rounded-lg text-sm font-sans font-medium transition-all ${
+                className={`px-3 py-1.5 rounded-full text-xs font-sans font-medium transition-all ${
                   selected === i
                     ? "bg-primary text-primary-foreground shadow-warm"
                     : "bg-card text-foreground border border-border hover:bg-secondary"
