@@ -125,7 +125,7 @@ const DarkB = () => (
           Try Before <span className="text-primary italic">You Buy</span>
         </h2>
         <p className="text-primary-foreground/50 text-lg md:text-xl font-sans font-light max-w-2xl mx-auto mb-12">
-          We deliver up to 4 handcrafted carpets to your home — free of charge, zero obligation.
+          We deliver up to 4 handcrafted carpets to your home — free of charge. Decide on the spot.
         </p>
       </motion.div>
       {/* Glassmorphic cards */}
