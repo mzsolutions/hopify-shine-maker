@@ -76,7 +76,7 @@ const DarkA = () => (
               <span className="text-primary italic">In Your Space</span>
             </h2>
             <p className="text-primary-foreground/55 text-lg md:text-xl font-sans font-light leading-relaxed max-w-lg mb-14">
-              Select up to 4 handcrafted carpets and we'll deliver them to your doorstep — completely free, zero obligation.
+              Select up to 4 handcrafted carpets and we'll deliver them to your doorstep — completely free. See them in your space and decide on the spot.
             </p>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.6, duration: 0.6 }}>
