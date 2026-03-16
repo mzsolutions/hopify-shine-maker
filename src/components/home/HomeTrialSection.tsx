@@ -211,7 +211,7 @@ const LightA = () => (
             Try Carpets <span className="text-primary italic">At Home</span>
           </h2>
           <p className="text-muted-foreground text-lg font-sans font-light max-w-md mb-10">
-            Pick up to 4 carpets. We deliver free, you decide at home. No pressure, no cost.
+            Pick up to 4 carpets. We deliver free, you decide on the spot. No pressure, no cost.
           </p>
           {/* Timeline */}
           <div className="relative mb-12">
