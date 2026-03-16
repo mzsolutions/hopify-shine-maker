@@ -64,11 +64,6 @@ const CtaSection = () => {
             </div>
             <div className="w-px h-10 bg-primary-foreground/20" />
             <div className="text-center">
-              <p className="text-2xl font-serif text-primary-foreground">7 Days</p>
-              <p className="text-xs text-primary-foreground/60 uppercase tracking-wider">Returns</p>
-            </div>
-            <div className="w-px h-10 bg-primary-foreground/20" />
-            <div className="text-center">
               <p className="text-2xl font-serif text-primary-foreground">GCC</p>
               <p className="text-xs text-primary-foreground/60 uppercase tracking-wider">Wide Delivery</p>
             </div>
