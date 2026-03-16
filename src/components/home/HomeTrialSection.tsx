@@ -350,7 +350,7 @@ const LightD = () => (
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.4 }}
         className="text-center">
         <p className="text-muted-foreground text-lg font-sans font-light max-w-xl mx-auto mb-8">
-          Choose up to 4 handcrafted carpets. We deliver free, you decide at home.
+          Choose up to 4 handcrafted carpets. We deliver free, you decide on the spot.
         </p>
         <div className="flex justify-center"><LightCTAs /></div>
       </motion.div>
