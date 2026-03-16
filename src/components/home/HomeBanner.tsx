@@ -41,7 +41,7 @@ const HomeBanner = () => (
         </h2>
 
         <p className="text-primary-foreground/55 text-lg font-sans font-light leading-relaxed max-w-lg mb-10">
-          Select up to 4 handcrafted carpets and we'll deliver them to your doorstep — completely free, zero obligation.
+          Select up to 4 handcrafted carpets and we'll deliver them to your doorstep — completely free. Decide on the spot.
         </p>
 
         <a

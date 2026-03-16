@@ -407,7 +407,7 @@ const LightF = () => (
           Try It <span className="text-primary italic">Free</span>
         </h2>
         <p className="text-muted-foreground text-lg md:text-xl font-sans font-light max-w-2xl mx-auto mb-12">
-          Up to 4 carpets delivered to your home at no cost. Keep what you love, return the rest.
+          Up to 4 carpets delivered to your home at no cost. See them in your space, decide right away.
         </p>
       </motion.div>
     </div>
