@@ -35,7 +35,7 @@ const CtaSection = () => {
           
           <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
             Explore our curated collection of carpets, curtains, and furniture. 
-            Free delivery across the GCC with 7-day returns on carpets.
+            Free delivery across the GCC.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -61,11 +61,6 @@ const CtaSection = () => {
             <div className="text-center">
               <p className="text-2xl font-serif text-primary-foreground">Free</p>
               <p className="text-xs text-primary-foreground/60 uppercase tracking-wider">Delivery</p>
-            </div>
-            <div className="w-px h-10 bg-primary-foreground/20" />
-            <div className="text-center">
-              <p className="text-2xl font-serif text-primary-foreground">7 Days</p>
-              <p className="text-xs text-primary-foreground/60 uppercase tracking-wider">Returns</p>
             </div>
             <div className="w-px h-10 bg-primary-foreground/20" />
             <div className="text-center">

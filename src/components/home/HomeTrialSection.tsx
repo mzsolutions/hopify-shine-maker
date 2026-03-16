@@ -7,7 +7,7 @@ const steps = [
   { num: "01", icon: Package, title: "Pick Your Carpets", desc: "Choose up to 4 from our collection" },
   { num: "02", icon: Truck, title: "Free Delivery", desc: "We bring them straight to your door" },
   { num: "03", icon: Sofa, title: "Try at Home", desc: "See how they look in your space" },
-  { num: "04", icon: ShieldCheck, title: "Keep or Return", desc: "Love it? Keep it. If not, we collect free" },
+  { num: "04", icon: ShieldCheck, title: "Decide on the Spot", desc: "Love it? It's yours — decide right there" },
 ];
 
 const shopifyLink = "https://gejjh1-jk.myshopify.com/collections/all";
@@ -76,7 +76,7 @@ const DarkA = () => (
               <span className="text-primary italic">In Your Space</span>
             </h2>
             <p className="text-primary-foreground/55 text-lg md:text-xl font-sans font-light leading-relaxed max-w-lg mb-14">
-              Select up to 4 handcrafted carpets and we'll deliver them to your doorstep — completely free, zero obligation.
+              Select up to 4 handcrafted carpets and we'll deliver them to your doorstep — completely free. See them in your space and decide on the spot.
             </p>
           </motion.div>
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.6, duration: 0.6 }}>
@@ -125,7 +125,7 @@ const DarkB = () => (
           Try Before <span className="text-primary italic">You Buy</span>
         </h2>
         <p className="text-primary-foreground/50 text-lg md:text-xl font-sans font-light max-w-2xl mx-auto mb-12">
-          We deliver up to 4 handcrafted carpets to your home — free of charge, zero obligation.
+          We deliver up to 4 handcrafted carpets to your home — free of charge. Decide on the spot.
         </p>
       </motion.div>
       {/* Glassmorphic cards */}
@@ -172,7 +172,7 @@ const DarkC = () => (
               Your Home,<br /><span className="text-primary italic">Your Showroom</span>
             </h2>
             <p className="text-primary-foreground/50 text-base font-sans font-light max-w-md mb-10">
-              Experience our carpets in your own space before committing — delivered free, returned free.
+              Experience our carpets in your own space — delivered free. Choose on the spot, no hassle.
             </p>
           </motion.div>
           {/* Numbered steps */}
@@ -211,7 +211,7 @@ const LightA = () => (
             Try Carpets <span className="text-primary italic">At Home</span>
           </h2>
           <p className="text-muted-foreground text-lg font-sans font-light max-w-md mb-10">
-            Pick up to 4 carpets. We deliver free, you decide at home. No pressure, no cost.
+            Pick up to 4 carpets. We deliver free, you decide on the spot. No pressure, no cost.
           </p>
           {/* Timeline */}
           <div className="relative mb-12">
@@ -256,7 +256,7 @@ const LightB = () => (
           Experience Before <span className="text-primary italic">You Commit</span>
         </h2>
         <p className="text-muted-foreground text-lg font-sans font-light max-w-xl mx-auto mb-16">
-          Select up to 4 carpets. Free delivery. Free returns. Zero risk.
+          Select up to 4 carpets. Free delivery. Decide on the spot.
         </p>
       </motion.div>
       {/* Horizontal icon cards */}
@@ -350,7 +350,7 @@ const LightD = () => (
       <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ delay: 0.4 }}
         className="text-center">
         <p className="text-muted-foreground text-lg font-sans font-light max-w-xl mx-auto mb-8">
-          Choose up to 4 handcrafted carpets. We deliver free, you decide at home.
+          Choose up to 4 handcrafted carpets. We deliver free, you decide on the spot.
         </p>
         <div className="flex justify-center"><LightCTAs /></div>
       </motion.div>
@@ -373,7 +373,7 @@ const LightE = () => (
             Luxury Delivered<br /><span className="text-primary italic">To Your Door</span>
           </h2>
           <p className="text-muted-foreground text-lg font-sans font-light max-w-lg mb-10">
-            Select up to 4 carpets and experience them in your home. Free delivery, free returns, zero obligation.
+            Select up to 4 carpets and experience them in your home. Free delivery — decide on the spot.
           </p>
         </motion.div>
         {/* Inline horizontal steps */}
@@ -407,7 +407,7 @@ const LightF = () => (
           Try It <span className="text-primary italic">Free</span>
         </h2>
         <p className="text-muted-foreground text-lg md:text-xl font-sans font-light max-w-2xl mx-auto mb-12">
-          Up to 4 carpets delivered to your home at no cost. Keep what you love, return the rest.
+          Up to 4 carpets delivered to your home at no cost. See them in your space, decide right away.
         </p>
       </motion.div>
     </div>
