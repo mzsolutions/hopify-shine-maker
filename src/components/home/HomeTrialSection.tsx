@@ -373,7 +373,7 @@ const LightE = () => (
             Luxury Delivered<br /><span className="text-primary italic">To Your Door</span>
           </h2>
           <p className="text-muted-foreground text-lg font-sans font-light max-w-lg mb-10">
-            Select up to 4 carpets and experience them in your home. Free delivery, free returns, zero obligation.
+            Select up to 4 carpets and experience them in your home. Free delivery — decide on the spot.
           </p>
         </motion.div>
         {/* Inline horizontal steps */}
