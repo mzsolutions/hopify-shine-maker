@@ -172,7 +172,7 @@ const DarkC = () => (
               Your Home,<br /><span className="text-primary italic">Your Showroom</span>
             </h2>
             <p className="text-primary-foreground/50 text-base font-sans font-light max-w-md mb-10">
-              Experience our carpets in your own space before committing — delivered free, returned free.
+              Experience our carpets in your own space — delivered free. Choose on the spot, no hassle.
             </p>
           </motion.div>
           {/* Numbered steps */}
