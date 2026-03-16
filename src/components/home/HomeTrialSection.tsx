@@ -7,7 +7,7 @@ const steps = [
   { num: "01", icon: Package, title: "Pick Your Carpets", desc: "Choose up to 4 from our collection" },
   { num: "02", icon: Truck, title: "Free Delivery", desc: "We bring them straight to your door" },
   { num: "03", icon: Sofa, title: "Try at Home", desc: "See how they look in your space" },
-  { num: "04", icon: ShieldCheck, title: "Keep or Return", desc: "Love it? Keep it. If not, we collect free" },
+  { num: "04", icon: ShieldCheck, title: "Decide on the Spot", desc: "Love it? It's yours — decide right there" },
 ];
 
 const shopifyLink = "https://gejjh1-jk.myshopify.com/collections/all";
