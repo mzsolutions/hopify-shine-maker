@@ -256,7 +256,7 @@ const LightB = () => (
           Experience Before <span className="text-primary italic">You Commit</span>
         </h2>
         <p className="text-muted-foreground text-lg font-sans font-light max-w-xl mx-auto mb-16">
-          Select up to 4 carpets. Free delivery. Free returns. Zero risk.
+          Select up to 4 carpets. Free delivery. Decide on the spot.
         </p>
       </motion.div>
       {/* Horizontal icon cards */}
