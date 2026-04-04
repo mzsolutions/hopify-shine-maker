@@ -8,6 +8,7 @@ import GetEstimate from "./pages/GetEstimate";
 import Demo from "./pages/Demo";
 import FreeHomeTrial from "./pages/FreeHomeTrial";
 import FreeHomeTrialV2 from "./pages/FreeHomeTrialV2";
+import FreeHomeTrialV3 from "./pages/FreeHomeTrialV3";
 import ShopCarpets from "./pages/ShopCarpets";
 import ShopCarpetsV2 from "./pages/ShopCarpetsV2";
 import NotFound from "./pages/NotFound";
