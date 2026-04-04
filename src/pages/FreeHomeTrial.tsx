@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle, CheckCircle2, ChevronRight, Package, Truck, Sofa, ShieldCheck, CreditCard, HelpCircle } from "lucide-react";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-const homeTrialBg = "https://cdn.shopify.com/s/files/1/0671/2600/1717/files/Banner_8a12add1-28e5-4bc9-b7d9-4f451069a5aa.jpg?v=1771449985";
-const stepChoose = "https://cdn.shopify.com/s/files/1/0671/2600/1717/files/lifestyle.jpg?v=1770293942";
-const stepDeliver = "https://cdn.shopify.com/s/files/1/0671/2600/1717/files/carpets-stack.jpg?v=1770293942";
-const stepDecide = "https://cdn.shopify.com/s/files/1/0671/2600/1717/files/craftsmanship.jpg?v=1770293942";
+import homeTrialBg from "@/assets/home-trial-bg.jpg";
+import stepChoose from "@/assets/trial-step-choose.jpg";
+import stepDeliver from "@/assets/trial-step-deliver.jpg";
+import stepDecide from "@/assets/trial-step-decide.jpg";
 import {
   Accordion,
   AccordionContent,
