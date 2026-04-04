@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import GetEstimate from "./pages/GetEstimate";
 import Demo from "./pages/Demo";
 import FreeHomeTrial from "./pages/FreeHomeTrial";
+import FreeHomeTrialV2 from "./pages/FreeHomeTrialV2";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/get-estimate" element={<GetEstimate />} />
           <Route path="/demo" element={<Demo />} />
           <Route path="/free-home-trial" element={<FreeHomeTrial />} />
+          <Route path="/free-home-trial-v2" element={<FreeHomeTrialV2 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
