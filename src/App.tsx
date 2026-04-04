@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import GetEstimate from "./pages/GetEstimate";
 import Demo from "./pages/Demo";
 import FreeHomeTrial from "./pages/FreeHomeTrial";
+import FreeHomeTrialV2 from "./pages/FreeHomeTrialV2";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
