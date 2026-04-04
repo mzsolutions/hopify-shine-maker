@@ -8,6 +8,7 @@ import GetEstimate from "./pages/GetEstimate";
 import Demo from "./pages/Demo";
 import FreeHomeTrial from "./pages/FreeHomeTrial";
 import FreeHomeTrialV2 from "./pages/FreeHomeTrialV2";
+import FreeHomeTrialV3 from "./pages/FreeHomeTrialV3";
 import ShopCarpets from "./pages/ShopCarpets";
 import ShopCarpetsV2 from "./pages/ShopCarpetsV2";
 import NotFound from "./pages/NotFound";
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/demo" element={<Demo />} />
           <Route path="/free-home-trial" element={<FreeHomeTrial />} />
           <Route path="/free-home-trial-v2" element={<FreeHomeTrialV2 />} />
+          <Route path="/free-home-trial-v3" element={<FreeHomeTrialV3 />} />
           <Route path="/shop" element={<ShopCarpets />} />
           <Route path="/shop-v2" element={<ShopCarpetsV2 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
