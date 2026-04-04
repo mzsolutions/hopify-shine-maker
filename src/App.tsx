@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import GetEstimate from "./pages/GetEstimate";
 import Demo from "./pages/Demo";
+import FreeHomeTrial from "./pages/FreeHomeTrial";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/get-estimate" element={<GetEstimate />} />
           <Route path="/demo" element={<Demo />} />
+          <Route path="/free-home-trial" element={<FreeHomeTrial />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
