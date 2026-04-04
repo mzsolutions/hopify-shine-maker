@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import GetEstimate from "./pages/GetEstimate";
 import Demo from "./pages/Demo";
+import FreeHomeTrial from "./pages/FreeHomeTrial";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
