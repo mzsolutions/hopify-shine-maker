@@ -11,6 +11,7 @@ import FreeHomeTrialV2 from "./pages/FreeHomeTrialV2";
 import FreeHomeTrialV3 from "./pages/FreeHomeTrialV3";
 import ShopCarpets from "./pages/ShopCarpets";
 import ShopCarpetsV2 from "./pages/ShopCarpetsV2";
+import ShopCarpetsV3 from "./pages/ShopCarpetsV3";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
