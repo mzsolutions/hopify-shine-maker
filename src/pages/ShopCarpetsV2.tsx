@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
+import shopBanner from "@/assets/shop-banner.jpg";
 import shapeRectangular from "@/assets/filters/shape-rectangular.jpg";
 import shapeRound from "@/assets/filters/shape-round.jpg";
 import shapeSquare from "@/assets/filters/shape-square.jpg";
