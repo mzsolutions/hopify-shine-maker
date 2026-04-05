@@ -155,14 +155,37 @@ const ShopCarpetsV2 = () => {
     <div className="min-h-screen bg-background">
       <Header />
 
-      {/* Compact Hero */}
-      <section className="bg-foreground/95 py-10 text-center">
-        <h1 className="font-heading text-3xl md:text-4xl text-white font-semibold mb-2">
-          Find Your Perfect Carpet
-        </h1>
-        <p className="text-white/60 text-sm md:text-base">
-          Use the visual filters below to narrow down your ideal carpet
-        </p>
+      {/* Hero Banner */}
+      <section className="relative h-[340px] md:h-[420px] overflow-hidden flex items-center justify-center">
+        <img
+          src={shopBanner}
+          alt="Luxury carpet showroom"
+          className="absolute inset-0 w-full h-full object-cover"
+          width={1920}
+          height={640}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-foreground/60 via-foreground/40 to-foreground/70" />
+        <div className="relative z-10 text-center px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7 }}
+          >
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="h-px w-10 bg-primary" />
+              <span className="text-primary font-sans text-[11px] font-semibold tracking-[0.4em] uppercase">
+                Handpicked Collection
+              </span>
+              <div className="h-px w-10 bg-primary" />
+            </div>
+            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl text-primary-foreground font-semibold mb-3 leading-tight">
+              Find Your Perfect Carpet
+            </h1>
+            <p className="text-primary-foreground/70 text-base md:text-lg max-w-xl mx-auto font-light">
+              Use the visual filters below to discover your ideal handcrafted carpet
+            </p>
+          </motion.div>
+        </div>
       </section>
 
       {/* Horizontal Filter Steps */}
