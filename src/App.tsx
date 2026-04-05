@@ -11,6 +11,7 @@ import FreeHomeTrialV2 from "./pages/FreeHomeTrialV2";
 import FreeHomeTrialV3 from "./pages/FreeHomeTrialV3";
 import ShopCarpets from "./pages/ShopCarpets";
 import ShopCarpetsV2 from "./pages/ShopCarpetsV2";
+import ShopCarpetsV3 from "./pages/ShopCarpetsV3";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/free-home-trial-v3" element={<FreeHomeTrialV3 />} />
           <Route path="/shop" element={<ShopCarpets />} />
           <Route path="/shop-v2" element={<ShopCarpetsV2 />} />
+          <Route path="/shop-v3" element={<ShopCarpetsV3 />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
